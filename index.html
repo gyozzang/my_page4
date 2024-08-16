@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIENDS SCREEN</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <!-- youtube-background 라이브러리 로드 : https://inpa.tistory.com/entry/Youtube-Background-%F0%9F%93%9A-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%98%81%EC%83%81%EC%9D%84-%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4%EC%9C%BC%EB%A1%9C-->
+            <script src="https://unpkg.com/youtube-background@1.0.14/jquery.youtube-background.min.js"></script>
+            <script>
+              $(document).ready(function() {
+                    $('[data-vbg]').youtube_background(); // 실행
+              });
+            </script>
+</head>
+<body>
+    <header>
+        <div id="gnb_bar">
+            <div class="logo">FRIENDS SCREEN</div>
+
+        <nav>
+            <ul>
+                <li class="line"><a href="#">서비스</a></li>
+                <li class="line"><a href="#">코스소개</a></li>
+                <li class="line"><a href="#">매장찾기</a></li>
+
+                <li class="line">
+                <a href="#">새소식</a>
+                    <div class="sub_box">
+                    <ul class="sub">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                    </div>
+                </li>
+
+                <li class="line2">
+                    <a href="#">창업안내</a>
+                </li>
+                <li class="line3">
+                    <a href="#">창업비용문의</a>
+                </li>
+
+            </ul>
+        </nav>
+        </div>
+    </header>
+    
+    <div class="fixed-container1">
+        <div data-vbg-autoplay="true" data-vbg="https://youtu.be/foVMdsippzk?si=LZi-oVStf7qtLzgu"></div>
+    </div>
+    
+
+    <div class="fixed-container2">
+        <div class="m_title">예비 창업자를<br>기다립니다.</div>
+        <div class="section">
+            <div class="s2_b1"></div>
+            <div class="s2_b2">
+                <div class="s2_b2_1">
+                <h1>창업 안내</h1>
+                <p>카카오 VX 본사와 점주의 상생을 기업의 핵심가치로 구축,<br>점주님과 동반 성장을 추구합니다.</p>
+                </div>
+                <a href="#" class="btn">국내 창업 문의하러 가기</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed-container3">
+        <div class="section2">
+            <div class="s3_b1">
+                <div class="s2_b2_1">
+                <h1>창업 문의</h1>
+                <p>카카오 VX와 함께 할 예비 점주님을 기다립니다.<br>상담을 접수하시면 빠른 시일 내로 연락 드리겠습니다.</p>
+                </div>
+                <a href="#" class="btn">국내 창업 문의하러 가기</a>
+                <a href="#" class="btn2">미국 창업 문의하러 가기</a>
+            </div>
+                <div class="s3_b2"></div>
+        </div>
+    </div>
+   
+    <div class="fixed-container4">
+        <footer>
+            <div class="f1">
+                <div class="kakaovx"><img src="images/kakaovx.png"></div>
+            <div class="f2">
+                <div class="f2_b1">대표이사 문태식 ㅣ 사업자등록 144-81-03460 ㅣ 대표전화 1666-1538 ㅣ 경기도 성남시 분당구 판교역 231 H스퀘어 S동 5층</div>
+                <div class="f2_b2">통합이용약관 위치기반서비스이용약관 개인정보처리방침</div>
+
+                <div class="f2_b3">
+                <input id="check-btn" type="checkbox" />
+                    <label for="check-btn">패밀리사이트<span class="plus">+</span></label>
+                    <ul class="menubars">
+                        <li><a href="#">카카오 VX</a></li>
+                        <li><a href="#">프렌즈 아카데미</a></li>
+                        <li><a href="#">매직샷(오토티)</a></li>
+                        <li><a href="#">피팅센터</a></li>
+                        <li><a href="#">카카오프렌즈골프</a></li>
+                    </ul> 
+                </div>
+            </div>   
+
+            <div class="f2_b4">Copyright © Kakao VX Corp. All rights reserved.</div>
+            <div class="icon">
+                <div class="i1"><img src="images/sns_instagram.png"></div>
+                <div class="i2"><img src="images/icon_link_tms.png"></div>
+            </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
